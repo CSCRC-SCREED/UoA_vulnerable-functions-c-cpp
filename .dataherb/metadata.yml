@@ -1,0 +1,67 @@
+name: Vulnerable functions in C/C++ for vulnerability detection
+description: A processed version of four popular code vulnerability datasets (Big-Vul, D2A, Devign, Juliet). Entries have been made unique and consistent.
+contributors:
+  name: Roland Croft, M. Ali Babar, M. Mehdi Kholoosi
+data:
+  name: Big-Vul.csv
+  description: The processed Big-Vul dataset.
+  path: https://github/com/CSCRC-SCREED/vulnerable-functions-c-cpp/datasets/Big-Vul/Big-Vul.csv
+  format: CSV
+  size: 144.2 MB
+  fields:
+    name: ID
+    description: Project Hash Label
+    name: Function
+    description: The code function containing the potential vulnerability.
+    name: Vulnerable
+    description: Boolean value describing whether the code is vulnerable or not.
+    name: UID
+    description: Unique Identifier for each row of data in the dataset
+  name: D2A.csv
+  description: The processed D2A dataset.
+  path: https://github/com/CSCRC-SCREED/vulnerable-functions-c-cpp/datasets/D2A/D2A.csv
+  format: CSV
+  size: 58.6 MB
+  fields:
+    name: ID
+    description: Project Hash Label
+    name: Function
+    description: The code function containing the potential vulnerability.
+    name: Vulnerable
+    description: Boolean value describing whether the code is vulnerable or not.
+    name: UID
+    description: Unique Identifier for each row of data in the dataset
+  name: Devign.csv
+  description: The processed Devign dataset.
+  path: https://github/com/CSCRC-SCREED/vulnerable-functions-c-cpp/datasets/Devign/Devign.csv
+  format: CSV
+  size: 49.8 MB
+  fields:
+    name: ID
+    description: Project Hash Label
+    name: Function
+    description: The code function containing the potential vulnerability.
+    name: Vulnerable
+    description: Boolean value describing whether the code is vulnerable or not.
+    name: UID
+    description: Unique Identifier for each row of data in the dataset
+  name: Juliet.csv
+  description: The processed Juliet dataset.
+  path: https://github/com/CSCRC-SCREED/vulnerable-functions-c-cpp/datasets/Juliet/Juliet.csv
+  format: CSV
+  size: 20.5 MB
+  fields:
+    name: ID
+    description: Project Hash Label
+    name: Function
+    description: The code function containing the potential vulnerability.
+    name: Vulnerable
+    description: Boolean value describing whether the code is vulnerable or not.
+    name: UID
+    description: Unique Identifier for each row of data in the dataset
+license:
+  name: GNU v3
+  link: Link to the license page
+references:
+  name: Data Quality for Software Vulnerability Datasets
+  link: https://arxiv.org/abs/2301.05456
