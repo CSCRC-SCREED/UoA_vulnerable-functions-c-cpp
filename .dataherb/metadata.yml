@@ -5,7 +5,7 @@ contributors:
 data:
   name: Big-Vul.csv
   description: The processed Big-Vul dataset.
-  path: https://github.com/CSCRC-SCREED/vulnerable-functions-c-cpp/blob/main/datasets/Big-Vul/Big-Vul.csv
+  path: https://github.com/CSCRC-SCREED/UoA_vulnerable-functions-c-cpp/blob/main/datasets/Big-Vul/Big-Vul.csv
   format: CSV
   size: 144.2 MB
   fields:
@@ -19,7 +19,7 @@ data:
     description: Unique Identifier for each row of data in the dataset
   name: D2A.csv
   description: The processed D2A dataset.
-  path: https://github.com/CSCRC-SCREED/vulnerable-functions-c-cpp/blob/main/datasets/D2A/D2A.csv
+  path: https://github.com/CSCRC-SCREED/UoA_vulnerable-functions-c-cpp/blob/main/datasets/D2A/D2A.csv
   format: CSV
   size: 58.6 MB
   fields:
@@ -33,7 +33,7 @@ data:
     description: Unique Identifier for each row of data in the dataset
   name: Devign.csv
   description: The processed Devign dataset.
-  path: https://github.com/CSCRC-SCREED/vulnerable-functions-c-cpp/blob/main/datasets/Devign/Devign.csv
+  path: https://github.com/CSCRC-SCREED/UoA_vulnerable-functions-c-cpp/blob/main/datasets/Devign/Devign.csv
   format: CSV
   size: 49.8 MB
   fields:
@@ -47,7 +47,7 @@ data:
     description: Unique Identifier for each row of data in the dataset
   name: Juliet.csv
   description: The processed Juliet dataset.
-  path: https://github.com/CSCRC-SCREED/vulnerable-functions-c-cpp/blob/main/datasets/Juliet/Juliet.csv
+  path: https://github.com/CSCRC-SCREED/UoA_vulnerable-functions-c-cpp/blob/main/datasets/Juliet/Juliet.csv
   format: CSV
   size: 20.5 MB
   fields:
